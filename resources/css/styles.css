@@ -19,18 +19,29 @@ a {
   color: inherit;
 }
 
+/* Hero Styles */
+.hero {
+  height: 31rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  /* background-image: url("../images/glasses-bg.png") */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /* Header Styles */
 header {
-  background-color: cadetblue;
+  padding-top: 1rem;
   font-size: 1rem;
   color: white;
+}
+
+header .banner {
+  background-color: cadetblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.banner {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 header .logo {
@@ -40,16 +51,104 @@ header .logo {
 
 header img {
   height: 1.5rem;
+  padding: 0 1rem;
 }
 
-header .nav {
+header nav {
+  padding: 1rem 0;
 }
 
-ul {
+header li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+/* Headline Styles */
+.hero .flex {
   display: flex;
-  list-style: none;
+  justify-content: flex-end;
 }
 
-li {
+.headline {
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  background-color: white;
+}
 
+.headline h1 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0.67rem 0;
+}
+
+/* Process Section Styles */
+.process {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.process .process-item {
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.process img {
+  width: 5rem;
+}
+
+.process img.paper {
+  width: 3.5rem;
+}
+
+.process span {
+  /* text-align: center; */
+}
+
+/* Business Info Section Styles */
+.business-info {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+
+.business-info .info {
+  width: 47%;
+
+}
+
+.business-info .title {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+.business-info p {
+  margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
