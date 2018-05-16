@@ -116,16 +116,14 @@ header li {
 
 /* Business Info Section Styles */
 .business-info {
-  width: 75%;
-  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 5rem;
 }
 
 .business-info .info {
-  width: 47%;
-
+  width: 35%;
+  margin: 0 2.5%;
 }
 
 .business-info .title {
