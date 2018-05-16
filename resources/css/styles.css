@@ -93,55 +93,48 @@ header li {
   .hero {
     height: 22rem;
   }
-
   header {
     padding-top: 0;
   }
-
   .headline {
     margin-top: 5rem;
     margin-right: 2rem;
   }
-
   .headline h1 {
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
   }
 }
 
+/* Phablet View -- clear cramped header */
 @media only screen and (max-width: 630px) {
   .logo span {
     display: none;
   }
 }
 
-/* Hero Sectuib Mobile View */
+/* Hero Section Mobile View */
 @media only screen and (max-width: 545px) {
   .hero {
     height: 17rem;
     background-position: 20%;
   }
-
   .nav-large {
     display: none;
   }
-
   .nav-small {
     display: block;
   }
-
   .hero .flex {
     justify-content: center;
   }
-
   .headline {
     display: inline-block;
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-right: 0;
     width: 100%;
     background-color: white;
   }
-
   .headline h1 {
     margin: 0;
     padding: 1rem;
@@ -181,7 +174,6 @@ header li {
     flex-direction: column;
     font-size: 0.77rem;
   }
-
   .process .process-item {
     margin: .77rem auto;
     justify-content: center;
@@ -213,27 +205,29 @@ header li {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .business-info {
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
   }
-
   .business-info .info {
     width: 100%;
     margin: 0;
   }
-
   .business-info .title {
     width: 100%;
     padding: 0.5rem 0;
     text-align: center;
   }
-
   .business-info p {
     margin: auto;
     padding: 1rem 0.5rem 4rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .business-info p {
     font-size: 0.77rem;
   }
 }
@@ -255,11 +249,9 @@ footer img {
   footer {
     justify-content: center;
   }
-
   footer img {
     padding: 4rem 0;
   }
-
   footer span {
     display: none;
   }
