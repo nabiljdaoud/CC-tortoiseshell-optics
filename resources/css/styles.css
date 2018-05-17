@@ -85,7 +85,6 @@ header li {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-  margin: 0.67rem 0;
 }
 
 /* Hero Section for Tablet View */
@@ -129,14 +128,11 @@ header li {
     justify-content: center;
   }
   .headline {
-    display: inline-block;
-    margin-top: 10rem;
-    margin-right: 0;
+    margin: 10rem auto 0 auto;
     width: 100%;
     background-color: white;
   }
   .headline h1 {
-    margin: 0;
     padding: 1rem;
     font-size: 1rem;
     text-align: center;
@@ -226,6 +222,7 @@ header li {
   }
 }
 
+/* Change font size at same width as process section */
 @media only screen and (max-width: 545px) {
   .business-info p {
     font-size: 0.77rem;
